@@ -1,0 +1,14 @@
+{
+  "apps": [{
+    "name": "help",
+    "max_memory_restart": "300M",
+    "script": "src/app.js",
+    "instances": 3,
+    "exec_mode": "cluster",
+    "cwd": "./",
+    "out_file": "./logs/help-out.log",
+    "error_file": "./logs/help-err.log",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "watch": ["package.json"]
+  }]
+}

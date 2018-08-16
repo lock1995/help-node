@@ -1,0 +1,23 @@
+{
+  "name": "help-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lock1995/help-node.git"
+  },
+  "author": "Lock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lock1995/help-node/issues"
+  },
+  "homepage": "https://github.com/lock1995/help-node#readme",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-router": "^7.4.0"
+  }
+}
