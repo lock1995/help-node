@@ -4,7 +4,7 @@ const Router = require('koa-router');
 const router = new Router();
 
 router.get('/help', (ctx, next) => {
-  return 'test result'
+  ctx.body = 'test';
 });
 
 app.use(router.routes());
